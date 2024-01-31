@@ -12,6 +12,6 @@ Componente que marca el progreso en una barra y frena en pasos 1, 2, 3 etc. Pued
 
 Animación de side bar animada con una rotación a la derecha que abre un menú.
 
-## Proyecto 4: Animated Navigation
+## Proyecto 4: Hidden Search
 
 Componente de la lupa para buscar que al presionarlo se abre una searchbar
