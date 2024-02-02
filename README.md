@@ -20,3 +20,7 @@ Componente de la lupa para buscar que al presionarlo se abre una searchbar
 
 Efecto de cargado con una imagen de fondo que se ve borrosa hasta que alcanza el 100%
 
+## Proyecto 6: Scroll Animation
+
+Efecto de scroll realizado a contenedores de información. Funciona al scrollear hacia arriba y abajo.
+
