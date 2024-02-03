@@ -24,3 +24,6 @@ Efecto de cargado con una imagen de fondo que se ve borrosa hasta que alcanza el
 
 Efecto de scroll realizado a contenedores de información. Funciona al scrollear hacia arriba y abajo.
 
+## Proyecto 7: Split landing page
+
+Pagina que expande contenedores con información achicando el que esta la lado.
