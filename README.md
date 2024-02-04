@@ -27,3 +27,12 @@ Efecto de scroll realizado a contenedores de información. Funciona al scrollear
 ## Proyecto 7: Split landing page
 
 Pagina que expande contenedores con información achicando el que esta la lado.
+
+## Proyecto 8: Formulario 
+
+Formulario de login con diseño atractivo e interactivo.
+
+## Proyecto 9: Tablero de sonido
+
+Tablero con botones que emiten sonido
+
