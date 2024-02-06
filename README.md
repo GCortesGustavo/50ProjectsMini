@@ -45,3 +45,8 @@ Formulario de login con diseño atractivo e interactivo.
 
 Tablero con botones que emiten sonido
 
+## Proyecto 10: Chistes randoms
+# Carpeta: Dad Jokes
+
+Generador de chistes randoms utilizando una api externa que tienen chistes en ingles.
+
