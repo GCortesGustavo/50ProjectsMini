@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(red, green, blue);
+    background-color: #f2ebfc;
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-wrap: nowrap;
@@ -18,7 +18,7 @@ body {
 }
 
 .btn {
-    background-color: rebeccapurple;
+    background-color: #663399;
     border-radius: 5px;
     border: none;
     color: #fff;
@@ -27,10 +27,17 @@ body {
     font-size: 1.2rem;
     font-family: inherit;
     cursor: pointer;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
 }
 
 .btn:hover {
     opacity: 0.9;
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
 }
 
 .btn:focus {
