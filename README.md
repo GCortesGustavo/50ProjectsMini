@@ -50,3 +50,8 @@ Tablero con botones que emiten sonido
 
 Generador de chistes randoms utilizando una api externa que tienen chistes en ingles.
 
+## Proyecto 11: KeyCode
+# Carpeta: key-codes
+
+Info de cada tecla del teclado y como invocar esa letra o simbolo
+
