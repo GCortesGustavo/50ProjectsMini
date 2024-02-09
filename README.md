@@ -55,3 +55,9 @@ Generador de chistes randoms utilizando una api externa que tienen chistes en in
 
 Info de cada tecla del teclado y como invocar esa letra o simbolo
 
+## Proyecto 12: Faq Collapse
+# Carpeta: faq-collapse
+
+Consultas y preguntas que abre una ventana con informacion
+
+
