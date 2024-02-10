@@ -60,9 +60,14 @@ Info de cada tecla del teclado y como invocar esa letra o simbolo
 
 Consultas y preguntas que abre una ventana con informacion
 
-## proyecto 13: Random choice
+## Proyecto 13: Random choice
 # Carpeta: random-choice-picker
 
 mimifuncionalidad de elegir una opcion de las que vos quieras como si fuera la eleccion de una letra en el tutti frutti
+
+## Proyecto 14: Animated Navigation
+# Carpeta: animated-navigation
+
+Mini animacion para desplegar el menu de navegación
 
 
