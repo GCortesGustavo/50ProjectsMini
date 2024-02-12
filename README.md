@@ -70,4 +70,7 @@ mimifuncionalidad de elegir una opcion de las que vos quieras como si fuera la e
 
 Mini animacion para desplegar el menu de navegación
 
+## Proyecto 15: Incrementing Counter
+# Carpeta: incrementing-counter
 
+Contador que inicia en 0 y finaliza en el numero que se coloque en el código.
