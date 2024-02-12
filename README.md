@@ -74,3 +74,8 @@ Mini animacion para desplegar el menu de navegación
 # Carpeta: incrementing-counter
 
 Contador que inicia en 0 y finaliza en el numero que se coloque en el código.
+
+## Proyecto 16: Drink Water
+# Carpeta: drink-water
+
+Contador que inicia en 0 y finaliza en el numero que se coloque en el código.
