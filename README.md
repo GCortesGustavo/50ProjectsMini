@@ -80,14 +80,19 @@ Contador que inicia en 0 y finaliza en el numero que se coloque en el código.
 
 Contador que inicia en 0 y finaliza en el numero que se coloque en el código.
 
-## Proyecto 18: Movie App
+## Proyecto 17: Movie App
 # Carpeta: movie-app
 
 Pagina donde salen peliculas y sus reseñas y podes buscar con un search la pelicula que pongas.
 
-## Proyecto 16: BackGround animation
+## Proyecto 18: BackGround animation
 # Carpeta: background-animation
 
 Animacion de fondo con imagen.
+
+## Proyecto 19: Clock
+# Carpeta: theme-clock
+
+Reloj con cambio de modo oscuro a modo claro.
 
 
