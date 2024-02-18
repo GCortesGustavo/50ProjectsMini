@@ -100,3 +100,14 @@ Reloj con cambio de modo oscuro a modo claro.
 
 Animacion de boton
 
+## Proyecto 21: Drag and Drop
+# Carpeta: drag-and-drop
+
+Funcionalidad para arrastras una imagen de un objeto hacia otro vacío
+
+## Proyecto 22: Drawing App
+# Carpeta: drawing-app
+
+Panel en blanco para dibujar con todos los colores y distintos tamaños.
+
+
