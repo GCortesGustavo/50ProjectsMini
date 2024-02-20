@@ -110,4 +110,13 @@ Funcionalidad para arrastras una imagen de un objeto hacia otro vacío
 
 Panel en blanco para dibujar con todos los colores y distintos tamaños.
 
+## Proyecto 23: Kinetic Loader
+# Carpeta: kinetic-loader
+
+Efecto de un div mientras se carga el contenido de una pagina
+
+## Proyecto 24: Content Placeholder
+# Carpeta: content-placeholder
+
+Minitarjeta con contenido y diseño atractivo.
 
