@@ -120,3 +120,13 @@ Efecto de un div mientras se carga el contenido de una pagina
 
 Minitarjeta con contenido y diseño atractivo.
 
+## Proyecto 25: Sticky Bar
+
+
+Mini website donde se demuestra dejar el header posicionado arriba en todo momento y visible
+
+## Proyecto 26: Slide double
+
+
+Slide de div arriba y abajo
+
