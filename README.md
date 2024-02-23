@@ -130,3 +130,9 @@ Mini website donde se demuestra dejar el header posicionado arriba en todo momen
 
 Slide de div arriba y abajo
 
+
+## Proyecto 27: Notifications
+
+
+Pop up de notificaciones con diseño y animación atractiva
+
