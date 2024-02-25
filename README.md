@@ -136,3 +136,8 @@ Slide de div arriba y abajo
 
 Pop up de notificaciones con diseño y animación atractiva
 
+## Proyecto 28: Github Profiles
+
+
+Buscador de perfiles de github donde aparece la informacion de usuarios, sus repos, etc.
+
