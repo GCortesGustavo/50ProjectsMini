@@ -145,3 +145,9 @@ Buscador de perfiles de github donde aparece la informacion de usuarios, sus rep
 
 
 Animación de cuando le das me gusta a una publicación.
+
+
+## Proyecto 30: Auto text effect
+
+
+Effecto de autoescritura de frase que puede modificar la velocidad de escritura.
