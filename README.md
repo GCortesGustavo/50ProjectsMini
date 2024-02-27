@@ -151,3 +151,9 @@ Animación de cuando le das me gusta a una publicación.
 
 
 Effecto de autoescritura de frase que puede modificar la velocidad de escritura.
+
+
+## Proyecto 31: Password Generator
+
+
+Creador de contraseñas aleatorias con letras mayusculas, minusculas, numeros y simbolos, con posibilidad de seleccionar todos o uno solo de estas 4 opciones y elegir el largo de la contraseña
