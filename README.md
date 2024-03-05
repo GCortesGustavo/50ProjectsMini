@@ -180,3 +180,7 @@ Pequeño Carrusel de imagenes que pueden desplazarse mediante botones o mediante
 
 Pizarra con colores que al pasar el mouse por encima deja una estela.
 
+## Proyecto 37: Pokedex
+
+Pokedex que trae la info de pokemons con su tipo, imagenes, nombre, etc.
+
