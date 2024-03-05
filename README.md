@@ -157,3 +157,26 @@ Effecto de autoescritura de frase que puede modificar la velocidad de escritura.
 
 
 Creador de contraseñas aleatorias con letras mayusculas, minusculas, numeros y simbolos, con posibilidad de seleccionar todos o uno solo de estas 4 opciones y elegir el largo de la contraseña
+
+## Proyecto 32: Good Cheap Fast
+
+
+Botones que se presionan con una condicional que no todos pueden ser presionados. Como un piedra papel o tijeras.
+
+## Proyecto 33: Animated Countdown
+
+
+Animación de conteo 3,2,1 con boton para resetear la animación
+
+## Proyecto 34: Notes-app
+
+Blog de notas donde se pueden guardar, crear y editar notas. Se utiliza localstorage para guardar el contenido de las notas.
+
+## Proyecto 35: Image Carousel
+
+Pequeño Carrusel de imagenes que pueden desplazarse mediante botones o mediante un intervalo de tiempo.
+
+## Proyecto 36: HoverBoard
+
+Pizarra con colores que al pasar el mouse por encima deja una estela.
+
