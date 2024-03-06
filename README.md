@@ -187,3 +187,7 @@ Pokedex que trae la info de pokemons con su tipo, imagenes, nombre, etc.
 ## Proyecto 38: Mobile Tab Navigation
 
 Navegador Mobile para aplicaciones
+
+## Proyecto 39: Password Strenght Animation
+
+Fondo de aplicacion que cambia segun la fuerza de la contrañesa colocada en el login
