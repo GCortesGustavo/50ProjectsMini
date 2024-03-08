@@ -195,3 +195,8 @@ Fondo de aplicacion que cambia segun la fuerza de la contrañesa colocada en el 
 ## Proyecto 40: 3d Boxes Background
 
 Animación de background animado que parece 3d
+
+
+## Proyecto 41: UI verify account
+
+Diseño UI de verificacion de cuenta donde se colocan los 6 digitos que se envían al mail. Solo es diseño.
