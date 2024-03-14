@@ -200,3 +200,21 @@ Animación de background animado que parece 3d
 ## Proyecto 41: UI verify account
 
 Diseño UI de verificacion de cuenta donde se colocan los 6 digitos que se envían al mail. Solo es diseño.
+
+
+## Proyecto 42: Live User Filter
+
+Se practican filtros por nombre o localidad utilizando css con estilos para utilizar el filtro.
+
+
+## Proyecto 43: Feedback UI Design
+
+Componente para enviar la satisfaccion del cliente con mensaje de recibido.
+
+## Proyecto 44: Custom Range Slider
+
+Barra slider, por ejemplo como si fuera la de volumen
+
+## Proyecto 45: Netflix Mobile Animation
+
+Se crea interfaz de netflix para celular
