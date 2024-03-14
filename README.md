@@ -222,3 +222,7 @@ Se crea interfaz de netflix para celular
 ## Proyecto 46: Quizz App
 
 Juego de preguntas
+
+## Proyecto 47: Testimonial Box Switcher
+
+Carta de testimonios de personas que van cambiando durante cierto tiempo
