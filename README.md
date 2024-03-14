@@ -218,3 +218,7 @@ Barra slider, por ejemplo como si fuera la de volumen
 ## Proyecto 45: Netflix Mobile Animation
 
 Se crea interfaz de netflix para celular
+
+## Proyecto 46: Quizz App
+
+Juego de preguntas
