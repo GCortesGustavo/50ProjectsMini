@@ -235,5 +235,10 @@ Generador de imagenes aleatorias
 
 Lista de tareas
 
+## Proyecto 50!!!!: Juego de famosos
+
+Juego infinito donde hay que presionar imagenes que van a salir de manera aleatoria. Spoiler: No termina nunca
+
+
 
 
