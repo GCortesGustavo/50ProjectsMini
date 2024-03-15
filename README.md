@@ -226,3 +226,8 @@ Juego de preguntas
 ## Proyecto 47: Testimonial Box Switcher
 
 Carta de testimonios de personas que van cambiando durante cierto tiempo
+
+## Proyecto 48: Random Image Generator
+
+Generador de imagenes aleatorias
+
