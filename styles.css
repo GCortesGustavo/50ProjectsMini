@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: center;
+    /* background-color: #0a0d1a; */
+    color: #e7eaf7;
+    background: rgb(21,32,88);
+    background: radial-gradient(circle, rgba(21,32,88,1) 0%, rgba(4,6,28,1) 100%);
+    
 }
 
 .projects-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 10px;
 }
 
 .project {
@@ -14,11 +22,144 @@ body {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    width: 150px;
+    width: 250px;
     text-align: center;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+    background-color: #414e6e;
+}
+
+.project:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
 }
 
 .project img {
     max-width: 100%;
     height: auto;
+}
+
+.title {
+    color: #99ace0;
+}
+
+a {
+    color: #f8b400;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffa726;
+}
+
+a:visited {
+    color: #f8b400;
+}
+
+.bienvenidos {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+    padding: 20px;
+    background-color: #2a2f4a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1.title {
+    color: #99ace0;
+    margin-top: 20px;
+}
+
+.bienvenidos h2 {
+    color: #99ace0;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .project {
+        width: 200px;
+    }
+
+    .bienvenidos {
+        padding: 15px;
+    }
+
+    h1.title {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 992px) {
+    .project {
+        width: 180px;
+    }
+
+    .bienvenidos {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    h1.title {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: 160px;
+    }
+
+    .bienvenidos {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    h1.title {
+        font-size: 1.6em;
+    }
+
+    .bienvenidos h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 576px) {
+    .project {
+        width: 140px;
+    }
+
+    .bienvenidos {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    h1.title {
+        font-size: 1.4em;
+    }
+
+    .bienvenidos h2 {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 400px) {
+    .project {
+        width: 120px;
+    }
+
+    .bienvenidos {
+        padding: 5px;
+    }
+
+    h1.title {
+        font-size: 1.2em;
+    }
+
+    .bienvenidos h2 {
+        font-size: 1em;
+    }
 }
