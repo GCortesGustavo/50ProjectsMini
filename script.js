@@ -1,5 +1,5 @@
 const projects = [
-    { id: 1, name: "Projecto 1", imgSrc: "projects/project1/screenshot1.jpg", subPath: "expanding-cards"  },
+    { id: 1, name: "Projecto 1", imgSrc: "projects/project1/screenshot1.jpg", },
     { id: 2, name: "Projecto 2", imgSrc: "projects/project2/screenshot2.jpg" },
     { id: 3, name: "Projecto 3", imgSrc: "projects/project3/screenshot3.jpg" },
     { id: 4, name: "Projecto 4", imgSrc: "projects/project4/project4.jpg" },
@@ -56,9 +56,8 @@ const container = document.querySelector('.projects-container');
 projects.forEach(project => {
     const projectElement = document.createElement('div');
     projectElement.className = 'project';
-    const projectPath = project.subPath ? `projects/project${project.id}/${project.subPath}/index.html` : `projects/project${project.id}/index.html`;
     projectElement.innerHTML = `
-        <a href="${projectPath}">
+        <a href="projects/project${project.id}/index.html">
             <img src="${project.imgSrc}" alt="${project.name}">
             <h2>${project.name}</h2>
         </a>
