@@ -56,8 +56,9 @@ const container = document.querySelector('.projects-container');
 projects.forEach(project => {
     const projectElement = document.createElement('div');
     projectElement.className = 'project';
+    const projectPath = project.subPath ? `projects/project${project.id}/${project.subPath}/index.html` : `projects/project${project.id}/index.html`;
     projectElement.innerHTML = `
-        <a href="projects/project${project.id}/index.html">
+        <a href="${projectPath}">
             <img src="${project.imgSrc}" alt="${project.name}">
             <h2>${project.name}</h2>
         </a>
