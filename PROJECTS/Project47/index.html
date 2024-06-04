@@ -30,9 +30,11 @@
     <h2>Guía de este proyecto:</h2>
     <ul>
         <li>Los 50 proyectos tienen como base 3 archivos: Uno HTML, uno CSS y uno JavaScript.</li>
-        <li>¿Este proyecto tiene imágenes? Claro, deberías buscar las que quisieras.</li>
-        <li>Digamos que estas imágenes están en un panel, ¿eso quiere decir que hay una imagen que está activa?</li>
-        <li>¿Qué ocurre si presiono otra imagen? ¿Debería cambiar la imagen activa?</li>
+        <li>Selección de elementos del DOM: Utiliza `document.querySelector()` para seleccionar diferentes elementos del DOM, como el contenedor de testimonios, la imagen del usuario, el nombre y la posición del usuario, y el testimonio mismo.</li>
+        <li>Definición de datos de testimonios: Define un array llamado `testimonials`, que contiene objetos que representan diferentes testimonios. Cada objeto tiene propiedades como `name`, `position`, `photo`, y `text` que representan el nombre del usuario, su posición, una foto, y el texto del testimonio, respectivamente.</li>
+        <li>Actualización periódica de testimonios: Define una función llamada `updateTestimonial()` que actualiza el testimonio mostrado en la página cada cierto intervalo de tiempo. En esta función, se obtiene un testimonio del array `testimonials` utilizando el índice `idx`, se actualizan los elementos HTML correspondientes con los datos del testimonio, y se incrementa el índice. Si el índice excede la longitud del array, se restablece a cero para volver al inicio de la lista de testimonios.</li>
+        <li>Temporizador de intervalo: Utiliza `setInterval()` para llamar a la función `updateTestimonial()` cada 10000 milisegundos (10 segundos), lo que permite que los testimonios cambien automáticamente en la página a intervalos regulares.</li>
+        
     </ul>
     
     <p>Espero que con esto te ayude a pensar cómo hacer este proyecto. Animate a equivocarte y sino, ya sabes que podés revisar el código del home!</p>

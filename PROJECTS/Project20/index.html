@@ -30,9 +30,11 @@
     <h2>Guía de este proyecto:</h2>
     <ul>
         <li>Los 50 proyectos tienen como base 3 archivos: Uno HTML, uno CSS y uno JavaScript.</li>
-        <li>¿Este proyecto tiene imágenes? Claro, deberías buscar las que quisieras.</li>
-        <li>Digamos que estas imágenes están en un panel, ¿eso quiere decir que hay una imagen que está activa?</li>
-        <li>¿Qué ocurre si presiono otra imagen? ¿Debería cambiar la imagen activa?</li>
+        <li>Selección de elementos del DOM: Utiliza `document.querySelectorAll(".ripple")` para seleccionar todos los elementos con la clase 'ripple', que representan los botones a los que se les aplicará el efecto de onda al hacer clic.</li>
+        <li>Iteración sobre elementos y manejo de eventos: Itera sobre cada elemento de la lista de botones utilizando `buttons.forEach()` y añade un event listener de clic a cada uno. Cuando se hace clic en un botón, se ejecuta una función que crea un efecto de onda en la posición donde se hizo clic.</li>
+        <li>Obtención de coordenadas del clic del ratón: En la función de manejo de eventos, utiliza `e.pageX` y `e.pageY` para obtener las coordenadas X e Y del clic del ratón en relación con la página.</li>
+        <li>Creación del efecto de onda: En la función de manejo de eventos, crea un nuevo elemento `<span>` para representar el efecto de onda. Calcula la posición interna del clic del ratón en relación con el botón y establece las propiedades `top` y `left` del elemento `<span>` en consecuencia. Añade este elemento al botón. Luego, elimina el elemento `<span>` después de 500 milisegundos utilizando `setTimeout()`.</li>
+        
     </ul>
     
     <p>Espero que con esto te ayude a pensar cómo hacer este proyecto. Animate a equivocarte y sino, ya sabes que podés revisar el código del home!</p>

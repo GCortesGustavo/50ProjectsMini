@@ -30,9 +30,11 @@
     <h2>Guía de este proyecto:</h2>
     <ul>
         <li>Los 50 proyectos tienen como base 3 archivos: Uno HTML, uno CSS y uno JavaScript.</li>
-        <li>¿Este proyecto tiene imágenes? Claro, deberías buscar las que quisieras.</li>
-        <li>Digamos que estas imágenes están en un panel, ¿eso quiere decir que hay una imagen que está activa?</li>
-        <li>¿Qué ocurre si presiono otra imagen? ¿Debería cambiar la imagen activa?</li>
+        <li>Selección de elementos del DOM: Utiliza `querySelectorAll` para seleccionar todos los elementos con la clase 'cup-small' y almacena estos elementos en la variable `smallCups`. También utiliza `getElementById` para obtener los elementos con los IDs 'liters', 'percentage' y 'remained', y almacena estos elementos en las variables `liters`, `percentage` y `remained`, respectivamente.</li>
+        <li>Manejo de eventos de clic: Añade un event listener a cada taza pequeña para que se destaquen al hacer clic. Utiliza `forEach` para iterar sobre cada taza pequeña (`cup`) y añadir un event listener para el evento de clic. Cuando se hace clic en una taza pequeña, se ejecuta la función `highlightCups(idx)`.</li>
+        <li>Resaltado de tazas pequeñas: Dentro de la función `highlightCups(idx)`, maneja el caso especial cuando la última taza está llena y el caso cuando una taza está llena y la siguiente no. Luego, utiliza `forEach` para iterar sobre todas las tazas pequeñas y les agrega o quita la clase 'full' según su índice, para resaltarlas o desresaltarlas según corresponda.</li>
+        <li>Actualización de la taza grande: Define la función `updateBigCup()` para actualizar el tamaño de la taza grande y mostrar la cantidad de líquido. Dentro de esta función, calcula el número de tazas pequeñas llenas y el número total de tazas pequeñas, y utiliza esta información para actualizar el porcentaje de llenado y la cantidad restante de líquido en la taza grande.</li>
+        
     </ul>
     
     <p>Espero que con esto te ayude a pensar cómo hacer este proyecto. Animate a equivocarte y sino, ya sabes que podés revisar el código del home!</p>

@@ -30,9 +30,11 @@
     <h2>Guía de este proyecto:</h2>
     <ul>
         <li>Los 50 proyectos tienen como base 3 archivos: Uno HTML, uno CSS y uno JavaScript.</li>
-        <li>¿Este proyecto tiene imágenes? Claro, deberías buscar las que quisieras.</li>
-        <li>Digamos que estas imágenes están en un panel, ¿eso quiere decir que hay una imagen que está activa?</li>
-        <li>¿Qué ocurre si presiono otra imagen? ¿Debería cambiar la imagen activa?</li>
+        <li>Obtención de elementos del DOM: Utiliza `document.getElementById("form")`, `document.getElementById("input")`, y `document.getElementById("todos")` para obtener referencias al formulario, el campo de entrada y la lista de todos, respectivamente.</li>
+        <li>Manejo de eventos de formulario: Añade un event listener al formulario (`form`) para manejar el evento de envío. Cuando el usuario envía el formulario, se llama a la función `addTodo()`. Este evento se previene por defecto para evitar que la página se actualice.</li>
+        <li>Creación de elementos de lista: Define la función `addTodo(todo)` para añadir elementos de lista (todos) dinámicamente al DOM. Si se proporciona un objeto `todo`, se utiliza su texto y su estado completado para crear el todo. Cuando se hace clic en un todo, se marca o desmarca como completado. Cuando se hace clic con el botón derecho del ratón (contextmenu), se elimina el todo.</li>
+        <li>Actualización del almacenamiento local: Define la función `updateLS()` para actualizar los todos en el almacenamiento local. Itera sobre todos los elementos de lista (`li`) y los guarda en un array de objetos que representan cada todo. Este array se guarda en el almacenamiento local como una cadena JSON utilizando `localStorage.setItem()`.</li>
+        
     </ul>
     
     <p>Espero que con esto te ayude a pensar cómo hacer este proyecto. Animate a equivocarte y sino, ya sabes que podés revisar el código del home!</p>

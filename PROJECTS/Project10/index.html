@@ -30,9 +30,9 @@
     <h2>Guía de este proyecto:</h2>
     <ul>
         <li>Los 50 proyectos tienen como base 3 archivos: Uno HTML, uno CSS y uno JavaScript.</li>
-        <li>¿Este proyecto tiene imágenes? Claro, deberías buscar las que quisieras.</li>
-        <li>Digamos que estas imágenes están en un panel, ¿eso quiere decir que hay una imagen que está activa?</li>
-        <li>¿Qué ocurre si presiono otra imagen? ¿Debería cambiar la imagen activa?</li>
+        <li>Utiliza getElementById para seleccionar los elementos HTML que necesitas manipular. En este caso, selecciona el elemento que mostrará la broma (jokeEl) y el botón que generará la broma (jokeBtn).</li>
+        <li>Define la función generateJoke() como una función asíncrona. Dentro de esta función, utiliza fetch para hacer una solicitud a la API 'https://icanhazdadjoke.com' y espera la respuesta utilizando await. Luego, convierte la respuesta en formato JSON utilizando res.json() y espera el resultado. Finalmente, actualiza el contenido del elemento de la broma (jokeEl) con la broma obtenida de los datos.</li>
+        <li>Configura las cabeceras de la solicitud utilizando un objeto config para indicar que aceptas datos en formato JSON. Esto se hace para asegurarse de que la API devuelve los datos en el formato adecuado.</li>
     </ul>
     
     <p>Espero que con esto te ayude a pensar cómo hacer este proyecto. Animate a equivocarte y sino, ya sabes que podés revisar el código del home!</p>

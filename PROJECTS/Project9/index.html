@@ -29,9 +29,10 @@
     <h2>Guía de este proyecto:</h2>
     <ul>
         <li>Los 50 proyectos tienen como base 3 archivos: Uno HTML, uno CSS y uno JavaScript.</li>
-        <li>¿Este proyecto tiene imágenes? Claro, deberías buscar las que quisieras.</li>
-        <li>Digamos que estas imágenes están en un panel, ¿eso quiere decir que hay una imagen que está activa?</li>
-        <li>¿Qué ocurre si presiono otra imagen? ¿Debería cambiar la imagen activa?</li>
+        <li>Utiliza un bucle forEach para iterar sobre la matriz de sonidos (sounds). Dentro del bucle, crea un nuevo elemento button para cada sonido utilizando document.createElement("button"). Asigna la clase 'btn' al botón recién creado.</li>
+        <li>Asigna el texto del botón al nombre del sonido actual (sound). Añade un event listener al botón para que cuando se haga clic en él, se detengan todas las canciones y se reproduzca el sonido correspondiente.</li>
+        <li>Dentro del event listener del botón, utiliza document.getElementById(sound) para obtener el elemento de audio correspondiente al sonido seleccionado. Luego, detén todas las canciones utilizando la función stopSongs() y reproduce el sonido seleccionado utilizando play().</li>
+        <li>No te olvides de descargar los sonidos.</li>
     </ul>
     
     <p>Espero que con esto te ayude a pensar cómo hacer este proyecto. Animate a equivocarte y sino, ya sabes que podés revisar el código del home!</p>

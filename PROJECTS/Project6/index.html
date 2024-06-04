@@ -28,10 +28,10 @@
     
     <h2>Guía de este proyecto:</h2>
     <ul>
-        <li>Los 50 proyectos tienen como base 3 archivos: Uno HTML, uno CSS y uno JavaScript.</li>
-        <li>¿Este proyecto tiene imágenes? Claro, deberías buscar las que quisieras.</li>
-        <li>Digamos que estas imágenes están en un panel, ¿eso quiere decir que hay una imagen que está activa?</li>
-        <li>¿Qué ocurre si presiono otra imagen? ¿Debería cambiar la imagen activa?</li>
+        <li>Usa querySelectorAll para seleccionar todos los elementos con la clase 'box'. Estos son los elementos que deseas mostrar u ocultar en función del desplazamiento de la página.</li>
+        <li>Añade un event listener al objeto window para manejar el evento de desplazamiento (scroll). Define la función checkBoxes para que se ejecute cada vez que el usuario desplaza la página.</li>
+        <li>Calcula el punto de activación (triggerBottom) en función de la altura de la ventana. Aquí se establece en el 80% de la altura de la ventana (window.innerHeight / 5 * 4).</li>
+        <li>Usa getBoundingClientRect().top para obtener la posición de cada caja con respecto a la parte superior de la ventana. Compara esta posición con triggerBottom para añadir o quitar la clase 'show' según corresponda, mostrando u ocultando las cajas.</li>
     </ul>
     
     <p>Espero que con esto te ayude a pensar cómo hacer este proyecto. Animate a equivocarte y sino, ya sabes que podés revisar el código del home!</p>

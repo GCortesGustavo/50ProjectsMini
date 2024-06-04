@@ -30,9 +30,11 @@
     <h2>Guía de este proyecto:</h2>
     <ul>
         <li>Los 50 proyectos tienen como base 3 archivos: Uno HTML, uno CSS y uno JavaScript.</li>
-        <li>¿Este proyecto tiene imágenes? Claro, deberías buscar las que quisieras.</li>
-        <li>Digamos que estas imágenes están en un panel, ¿eso quiere decir que hay una imagen que está activa?</li>
-        <li>¿Qué ocurre si presiono otra imagen? ¿Debería cambiar la imagen activa?</li>
+        <li>Selección de un contenedor en el DOM: Utiliza `document.querySelector(".container")` para seleccionar el primer elemento con la clase 'container', que será el contenedor donde se mostrarán las imágenes aleatorias.</li>
+        <li>Generación de URLs de imágenes aleatorias: Define la constante `unsplashURL` que almacena la URL base de las imágenes aleatorias obtenidas de Unsplash. Esta URL se utilizará para cargar imágenes aleatorias en el contenedor.</li>
+        <li>Generación y adición de imágenes al contenedor: Utiliza un bucle `for` para generar un número específico de imágenes y añadirlas al contenedor. Para cada iteración del bucle, se crea un nuevo elemento `<img>` y se establece su atributo `src` con una URL generada aleatoriamente utilizando la función `getRandomSize()`. Luego, se añade esta imagen al contenedor utilizando el método `appendChild()`.</li>
+        <li>Generación de tamaños aleatorios para las imágenes: Define las funciones `getRandomSize()` y `getRandomNr()` para generar tamaños aleatorios para las imágenes. Estas funciones se utilizan para construir las URL de las imágenes aleatorias, donde cada tamaño es una combinación de dos números aleatorios obtenidos mediante `getRandomNr()`.</li>
+        
     </ul>
     
     <p>Espero que con esto te ayude a pensar cómo hacer este proyecto. Animate a equivocarte y sino, ya sabes que podés revisar el código del home!</p>

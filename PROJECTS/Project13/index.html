@@ -29,10 +29,10 @@
     
     <h2>Guía de este proyecto:</h2>
     <ul>
-        <li>Los 50 proyectos tienen como base 3 archivos: Uno HTML, uno CSS y uno JavaScript.</li>
-        <li>¿Este proyecto tiene imágenes? Claro, deberías buscar las que quisieras.</li>
-        <li>Digamos que estas imágenes están en un panel, ¿eso quiere decir que hay una imagen que está activa?</li>
-        <li>¿Qué ocurre si presiono otra imagen? ¿Debería cambiar la imagen activa?</li>
+        <li>Escucha los eventos de teclado: Utiliza `addEventListener()` para escuchar el evento `keyup` en el área de texto (`textarea`). Cuando el usuario presiona la tecla "Enter", elimina el contenido del área de texto y ejecuta la función `randomSelect()`.</li>
+        <li>Crea un elemento HTML para cada etiqueta: Dentro de la función `createTags(input)`, divide el valor del área de texto en etiquetas individuales separadas por comas (`,`) utilizando el método `split()`. Luego, filtra las etiquetas para eliminar cualquier espacio en blanco alrededor de cada etiqueta utilizando el método `trim()`. Después, crea un elemento `<span>` para cada etiqueta y añádelo al elemento `<div>` con el id "tags" (`tagsEl`).</li>
+        <li>Selecciona aleatoriamente una etiqueta: Dentro de la función `randomSelect()`, utiliza `setInterval()` para seleccionar aleatoriamente una etiqueta cada 100 milisegundos durante un total de 30 veces. Para cada iteración, selecciona una etiqueta aleatoria utilizando la función `pickRandomTag()`, resalta temporalmente la etiqueta seleccionada utilizando la función `highlightTag()`, y luego desmarca la etiqueta después de un breve retraso utilizando la función `unHighlightTag()`.</li>
+        <li>Funciones auxiliares: Utiliza las funciones `pickRandomTag()`, `highlightTag(tag)` y `unHighlightTag(tag)` para facilitar la selección aleatoria y el resaltado de las etiquetas.</li>
     </ul>
     
     <p>Espero que con esto te ayude a pensar cómo hacer este proyecto. Animate a equivocarte y sino, ya sabes que podés revisar el código del home!</p>

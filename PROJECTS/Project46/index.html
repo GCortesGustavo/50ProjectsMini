@@ -30,9 +30,12 @@
     <h2>Guía de este proyecto:</h2>
     <ul>
         <li>Los 50 proyectos tienen como base 3 archivos: Uno HTML, uno CSS y uno JavaScript.</li>
-        <li>¿Este proyecto tiene imágenes? Claro, deberías buscar las que quisieras.</li>
-        <li>Digamos que estas imágenes están en un panel, ¿eso quiere decir que hay una imagen que está activa?</li>
-        <li>¿Qué ocurre si presiono otra imagen? ¿Debería cambiar la imagen activa?</li>
+        <li>Estructura del cuestionario: El array `quizData` contiene objetos que representan cada pregunta del cuestionario. Cada objeto tiene propiedades como `question` para la pregunta en sí y `correct` para la respuesta correcta.</li>
+        <li>Selección de elementos del DOM: Selecciona elementos del DOM utilizando `document.getElementById()` y `document.querySelectorAll()` para obtener referencias a elementos HTML necesarios para el cuestionario, como el contenedor del cuestionario, las respuestas, el texto de la pregunta y el botón de envío.</li>
+        <li>Carga de preguntas: Dentro de la estructura `li`, se insertan los datos de cada pregunta y sus opciones de respuesta. Se utiliza la estructura de repetición `forEach` para iterar sobre el array de preguntas y agregar dinámicamente el contenido HTML para cada pregunta y sus opciones.</li>
+        <li>Obtención de la respuesta seleccionada: Al hacer clic en el botón de envío, se verifica cuál de las opciones de respuesta está marcada como seleccionada utilizando `getSelected()`. La respuesta seleccionada se compara con la respuesta correcta para determinar si es correcta o incorrecta.</li>
+        <li>Actualización del puntaje: Si la respuesta es correcta, se incrementa el puntaje. Luego, se carga la siguiente pregunta del cuestionario si hay más preguntas disponibles, de lo contrario, se muestra el puntaje final y un botón para recargar la página.</li>
+        
     </ul>
     
     <p>Espero que con esto te ayude a pensar cómo hacer este proyecto. Animate a equivocarte y sino, ya sabes que podés revisar el código del home!</p>

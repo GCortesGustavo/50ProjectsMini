@@ -30,9 +30,11 @@
     <h2>Guía de este proyecto:</h2>
     <ul>
         <li>Los 50 proyectos tienen como base 3 archivos: Uno HTML, uno CSS y uno JavaScript.</li>
-        <li>¿Este proyecto tiene imágenes? Claro, deberías buscar las que quisieras.</li>
-        <li>Digamos que estas imágenes están en un panel, ¿eso quiere decir que hay una imagen que está activa?</li>
-        <li>¿Qué ocurre si presiono otra imagen? ¿Debería cambiar la imagen activa?</li>
+        <li>Selección de elementos del DOM: Utiliza `document.querySelector()` para seleccionar elementos HTML relevantes, como los que muestran la hora (`hourEl`, `minuteEl`, `secondEl`, `timeEl`, `dateEl`) y el interruptor de modo oscuro (`toggle`). Estos elementos se seleccionan por su clase CSS.</li>
+        <li>Funcionalidad de cambio de modo oscuro: Añade un event listener al interruptor de modo oscuro (`toggle`) para cambiar entre el modo oscuro y el modo claro cuando se hace clic en él. Este evento modifica la clase `dark` en el elemento `<html>`, cambiando así el estilo de la página, y actualiza el texto del interruptor entre "Modo oscuro" y "Modo claro" según corresponda.</li>
+        <li>Obtención de la hora y fecha actual: Define la función `setTime()` para obtener la hora y la fecha actual utilizando el objeto `Date` en JavaScript. Luego, utiliza métodos del objeto `Date` para obtener la hora, los minutos, los segundos, el día de la semana, el día del mes y el mes. Los valores obtenidos se utilizan para actualizar dinámicamente los elementos HTML que muestran la hora y la fecha en la página.</li>
+        <li>Escalado de valores: Define la función `scale()` para escalar un valor numérico de un rango de entrada a un rango de salida. Este método es utilizado para calcular la rotación de las manecillas del reloj basándose en la hora actual.</li>
+        
     </ul>
     
     <p>Espero que con esto te ayude a pensar cómo hacer este proyecto. Animate a equivocarte y sino, ya sabes que podés revisar el código del home!</p>

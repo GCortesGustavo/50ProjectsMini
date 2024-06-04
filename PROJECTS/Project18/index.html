@@ -30,9 +30,11 @@
     <h2>Guía de este proyecto:</h2>
     <ul>
         <li>Los 50 proyectos tienen como base 3 archivos: Uno HTML, uno CSS y uno JavaScript.</li>
-        <li>¿Este proyecto tiene imágenes? Claro, deberías buscar las que quisieras.</li>
-        <li>Digamos que estas imágenes están en un panel, ¿eso quiere decir que hay una imagen que está activa?</li>
-        <li>¿Qué ocurre si presiono otra imagen? ¿Debería cambiar la imagen activa?</li>
+        <li>Selección de elementos del DOM: Utiliza `document.body` para seleccionar el elemento `body`, y `document.querySelectorAll('.slide')` para seleccionar todos los elementos con la clase 'slide'. Almacena también las referencias a los botones de navegación izquierda y derecha en las variables `leftBtn` y `rightBtn`, respectivamente.</li>
+        <li>Manejo de eventos de clic: Añade event listeners a los botones de navegación izquierda y derecha (`leftBtn` y `rightBtn`) para manejar los clics del usuario. Cuando se hace clic en el botón derecho, incrementa `activeSlide` y establece el fondo del cuerpo del documento según la imagen de la diapositiva activa. Cuando se hace clic en el botón izquierdo, decrementa `activeSlide` y realiza la misma operación.</li>
+        <li>Establecimiento del fondo del cuerpo: Define la función `setBgToBody()` para establecer el fondo del cuerpo del documento según la imagen de la diapositiva activa. Utiliza `body.style.backgroundImage` para establecer el fondo con la URL de la imagen de la diapositiva activa.</li>
+        <li>Establecimiento de la diapositiva activa: Define la función `setActiveSlide()` para establecer la clase 'active' en la diapositiva activa y quitarla de las demás. Utiliza `slides.forEach()` para iterar sobre todas las diapositivas y quitar la clase 'active' de cada una de ellas, luego añade la clase 'active' a la diapositiva activa actual.</li>
+        
     </ul>
     
     <p>Espero que con esto te ayude a pensar cómo hacer este proyecto. Animate a equivocarte y sino, ya sabes que podés revisar el código del home!</p>
